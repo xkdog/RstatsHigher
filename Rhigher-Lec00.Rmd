@@ -1,0 +1,84 @@
+---
+title: "高级数据分析及R语言实现: Lec00"
+output:
+  html_document: default
+  html_notebook: default
+author: 吕小康
+---
+
+本文档适合南开大学周恩来政府管理学院2017年上半年的**高级数据分析及R语言实现**研究生课程，主要作为一些基础内容索引，以便按图索骥。
+
+NOTE：课程高度依赖同学们的自学能力、英语水平、软件爱好和心理韧性，请慎重考虑。
+
+# 课程内容
+
+基本原则：软件操作为主、统计知识为辅。重点介绍以下四方面开源软件环境的基础操作：
+
+* `R`与`Rstudio`的基础应用：
+    - [Hadley](http://hadley.nz/)系列数据包的应用。
+    - 回归与方差分析的操作。
+    - 效应值与功效估算。
+    - 随机化检验与Bootstrap法置信区间。
+    - 基本相关统计内容。
+* 基于`Markdown`的日常文本写作。
+* 基于`LaTeX`的数学公式编辑。
+* 基于`GitHub`的文件共享及社会化编写操作。
+
+# 软件准备
+
+## `R`的安装
+
+请从[`R`官网](https://www.r-project.org/)下载适合自身操作系统的`R`最新版本。为追求统一，本次课程可固定使用`R 3.3.2`版本(2016-10-31发布)。
+
+关于`R`软件这里不再做任何介绍，请自行查阅资料。
+
+## `Rstudio`的安装
+
+`Rstudio`是集成了诸多`R`本身不具备的便捷功能的编辑器。请从[`Rstudio`官网](https://www.rstudio.com/)下载适合自身操作系统的`Rstudio`最新版本。为追求统一，本次课程可固定使用`RStudio 1.0.136`版本(2016-12-21发布)。
+
+课程主要利用`Rstudio`的`RMarkdown`文档进行写作，其格式请见其[官方说明](http://rmarkdown.rstudio.com/)及[参考手册(cheatsheet)](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)。请在阅读完下述`Markdown`语法后再阅读此参考手册。
+
+初学者建议先观看雪晴数据网提供的免费[Rstudio视频教程](http://www.xueqing.tv/cms/article/96)。该网站还提供多个R语言相关视频教程，可自行观阅。
+
+## `LaTeX`语言
+
+$\LaTeX$是生成高质量的科技和数学类文档的标记语言。它本身不是课程的核心内容，介绍一些相关知识主要为方便在`RMarkdown`文档中编辑数学公式。课程本身不涉及过多的$\LaTeX$细节。
+
+如果有意建立符合专业标准的数学类文档，可安装相关$\LaTex$引擎。为追求统一，建议使用`TexLive 2016`系统，可从其[官网](http://tug.org/texlive/)下载安装。另外，本人使用`TeXStudio`作为编辑器，有意者可自行从其[官网](http://texstudio.sourceforge.net/)下载最新版本。
+
+## `GitHub`环境
+
+可下载桌面版，也可直接[网络登录](https://github.com/)。需要注册账户。相详细了解Git操作，请参考廖雪峰的[在线教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)。对本课程而言，此教程较长，可择要观看。
+
+具体安装和调试细节请自行百度，课前最好安装调试完毕，第一次课上统一进行说明。部分安装操作说明请见本人的[百度网盘链接](http://pan.baidu.com/s/1pLm8Rwf)。
+
+
+## `Markdown`语言说明
+
+`Markdown`是一种可以使用普通文本编辑器编写的标记语言。关于Markdown的简洁说明可参考相关网页，以下是一些推荐。
+  
+  * [简书：Markdown入门指南](http://www.jianshu.com/p/1e402922ee32/)
+  * [阳志平：Markdown写作浅谈](http://www.yangzhiping.com/tech/r-markdown-knitr.html)
+  * [Markdwon在线学习课程](http://www.markdowntutorial.com/)
+  
+以上三个链接请大家自行仔细阅读，第三个文档请花10分钟左右的时间完成在线学习。`Markdown`语法不是课程本身的内容，但对于了解本课程文档的最基本格式具有根本性的作用。
+
+上述每一个软件或语言环境都需要较长时间的学习和训练，课程中会以尽量清晰简洁的方式进行介绍，仍请做好一定的心理准备。
+
+# 相关教材
+
+课程所有内容均可在网上找到免费公开的版本。为阅读方便，可推荐（但不强求）以下书目：
+
+  * 卡巴科夫：《R语言实战》（2016版）。 
+  * 吕小康：《R语言统计学基础》(待出版，2017，呵呵)。
+  * 刘海洋：《LaTeX入门》(2013版)。
+  * [Bookdwon官网](https://bookdown.org/)上的若干公开电子书籍。
+  
+购买原则：钱多则买，钱少可省。
+
+
+
+
+
+
+

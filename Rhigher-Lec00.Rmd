@@ -5,13 +5,7 @@ output:
   html_notebook: default
 author: 吕小康
 ---
----
-title: "高级数据分析及R语言实现: Lec00"
-output:
-  html_document: default
-  html_notebook: default
-author: 吕小康
----
+
 
 本文档适用于南开大学周恩来政府管理学院2017年上半年的**高级数据分析及R语言实现**研究生课程，主要作为一些基础内容索引，以便按图索骥。阅读此文档时，请保持电脑网络联接处于正常状态。
 
